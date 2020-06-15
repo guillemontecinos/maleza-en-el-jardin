@@ -21,6 +21,8 @@ for i in database:
     tokens.append(nlp(i))
 
 for t1 in range(len(tokens)):
+    print(tokens[t1].text)
+    print(tokens[t1].vector)
     for t2 in range(len(tokens)):
         A[t1][t2] = tokens[t1].similarity(tokens[t2])
 
