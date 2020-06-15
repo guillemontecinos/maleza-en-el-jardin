@@ -24,7 +24,7 @@ database = [
 ]
 
 ### Results
-spaCy arroja vectores de 50 elementos para cada frase, según base de datos [es_core_news_md](https://spacy.io/models/es#es_core_news_sm).
+spaCy arroja vectores de 50 elementos para cada frase, según base el modelo [es_core_news_md](https://spacy.io/models/es#es_core_news_sm).
 
 * Asesinatos por parte de Carlos Ibañez del Campo.
 ```python
