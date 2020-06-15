@@ -10,6 +10,7 @@
 * [Let's Read a Story Github Repo](https://github.com/itayniv/lets-read-a-story)
 
 ## word 2 vec w/ spaCy
+```python
 database = [
     "Asesinatos por parte de Carlos Ibañez del Campo.",
     "Nace Madonna.",
@@ -22,7 +23,7 @@ database = [
     "Muerte de Edmundo Rodriguez, primer paciente registrado.",
     "Corporación chilena de prevención del SIDA (Acción gay).",
 ]
-
+```
 ### Results
 spaCy arroja vectores de 50 elementos para cada frase, según base el modelo [es_core_news_md](https://spacy.io/models/es#es_core_news_sm).
 
